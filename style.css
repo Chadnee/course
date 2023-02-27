@@ -51,7 +51,7 @@ ul li a:hover {
      color : #ff7200;
 }
 .search {
-    margin-left:200px;
+    margin-left:130px;
 }
 .srch{
     width: 200px;
@@ -79,7 +79,7 @@ ul li a:hover {
     padding-top: 100px;
     display:flex;
     justify-content: space-between;
-    gap:400px;
+    gap:160px;
 }
 .course-title, .part-two {
     color:white;
@@ -90,7 +90,7 @@ ul li a:hover {
     color:#ff7200 ;
     font-size: 50px;;
 }
-p {
+.course-body p {
     color:white;
     font-family:Arial;
     letter-spacing: 1.2px;
@@ -108,8 +108,8 @@ p {
 }
 
 .form {
-    width: 350px;
-    height: 380px;
+    width: 380px;
+    height: 420px;
     
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,  rgba(0, 0, 0, 0.8)50%);
     border-radius: 15px;
@@ -121,7 +121,7 @@ p {
     border-radius:10px;
     width:250px;
     height:30px;
-    margin-top: 25px;
+    margin-top:30px;
    
 }
 .form input {
@@ -151,7 +151,7 @@ p {
     background-color: #ff7200;
     border-radius: 10px;
     width:250px;
-    height: 40px;;
+    height: 30px;;
     font-family: Arial;
     font-weight: bold;
     font-size: 20px;
@@ -174,9 +174,24 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 17px;
-    
+    text-align: center;
+    padding-top:20px;
 }
 .sign a {
     color: #ff7200;
     text-decoration: none;
+}
+.log {
+    color:white;
+    font-weight: bold;
+    margin-top:4px;
+
+}
+a i {
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+a i:hover{
+    color:#ff7200;
 }
